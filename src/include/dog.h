@@ -5,6 +5,10 @@
 
 class Dog : public Animal
 {
+
+// Եթե Animal դասի բոլոր ժառանգները ունեն որևէ գործողություն, ապա այդ գործողությունը պետք է հայտարարված լինի
+// ծնողում (Animal), որպեսզի հնարավոր լինի կանչել նաև ներքնշյալ obj֊ի վրա
+// Animal* obj = new Cat(); 
 private:
     std::string breed;
     std::string color;
